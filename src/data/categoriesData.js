@@ -1,6 +1,6 @@
-const pizza = require('src/assets/images/pizza-icon.jpg');
-const seafood = require('src/assets/images/shrimp-icon.jpg');
-const soft = require('src/assets/images/soda-icon.jpg');
+const pizza = require('src/assets/images/pizza-icon.png');
+const seafood = require('src/assets/images/shrimp-icon.png');
+const soft = require('src/assets/images/soda-icon.png');
 
 const categoriesData = [
   {
@@ -19,7 +19,7 @@ const categoriesData = [
     id: 3,
     image: soft,
     title: 'Soft Drinks',
-    selected: true,
+    selected: false,
   },
 ];
 
